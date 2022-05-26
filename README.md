@@ -1,8 +1,8 @@
 # University-Admissions-Procedure
 Reads student application information from a file and automatically accepts students into prefered departments, taking into account the department limit and different exam scores
 * This program reads a file with a list of university applicants where each student occupies a single line and
- information about them is in the following format:
- | FirstName LastName PhysicsExamScore ChemistryExamScore MathExamScore CompScienceExamScore SpecialExamScore FirstPriority SecondPriority ThirdPriority |
+ information about them is in the following format:  
+FirstName LastName PhysicsExamScore ChemistryExamScore MathExamScore CompScienceExamScore SpecialExamScore FirstPriority SecondPriority ThirdPriority
 
 * The admissions procedure happens in three stages, with each student choosing three departments(1st, 2nd, 3rd priority) at the start
 * Departments available are: Physics, Chemistry, Mathematics, Biotech and Engineering
